@@ -14,17 +14,24 @@
   }
   
   .wrapper{
+    position: relative;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 400px;
+    width: 500px;
     height: 400px;
     background-color: rgba(102, 116, 156, .8);
     background-image: linear-gradient(90deg, rgba(102, 116, 156, .5)16%, rgba(72, 102, 165, 1) 58%);
     border: 1px solid black;
     border-radius: 8px;
     box-shadow: 5px 5px 20px 7px rgba(0, 0, 0, .6);
+  }
+  .lang{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
   }
   h1{
     font-size: 30px;
@@ -46,6 +53,7 @@
     margin: 10px 0;
     font-size: 20px;
     border-radius: 8px;
+    cursor: pointer;
   }
   .result{
     font-size: 22px;
